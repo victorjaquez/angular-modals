@@ -4,7 +4,7 @@ import { MatDialogModule, MatFormFieldModule, MatButtonModule, MatInputModule } 
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  exports: [FormsModules, MatDialogModule, MatFormFieldModule, MatButtonModule, MatInputModule]
+  exports: [FormsModule, MatDialogModule, MatFormFieldModule, MatButtonModule, MatInputModule]
 })
 
 export class MaterialModule{};
