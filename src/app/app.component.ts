@@ -8,7 +8,7 @@ import { ModalComponent } from './modal/modal.component';
 })
 export class AppComponent {
   animal: string;
-  animal: string;
+  name: string;
 
   constructor(public dialog: MatDialog) {}
 
